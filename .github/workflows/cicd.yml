@@ -3,7 +3,7 @@ name: CI Pipeline with Pytest and Docker Hub Deployment
 # Trigger the workflow on every push to the main branch
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
 
 jobs:
   # Job 1: Run the tests
